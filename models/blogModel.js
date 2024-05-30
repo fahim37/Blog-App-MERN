@@ -8,11 +8,11 @@ const blogSchema = new mongoose.Schema(
         },
         description: {
             type: String,
-            required: [true, "description is require"],
+            required: [true, "description is required"],
         },
         image: {
             type: String,
-            required: [true, "image is require"],
+            required: [true, "image is required"],
         },
         user: {
             type: mongoose.Types.ObjectId,

@@ -70,13 +70,13 @@ export default function BlogCard({
         title={username}
         subheader={time}
       />
-      <CardMedia component="img" height="194" image={image} alt="Paella dish" />
+      <CardMedia component="img" height="194" image={image} alt="PostImage" />
       <CardContent>
         <Typography variant="h6" color="text.secondary">
-          Title : {title}
+          {title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Description : {description}
+          {description}
         </Typography>
       </CardContent>
     </Card>

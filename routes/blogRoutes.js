@@ -1,11 +1,11 @@
 const express = require("express");
 const {
-    getAllBlogsController,
-    createBlogController,
-    updateBlogController,
-    getBlogByIdController,
-    deleteBlogController,
-    userBlogControlller,
+  getAllBlogsController,
+  createBlogController,
+  updateBlogController,
+  getBlogByIdController,
+  deleteBlogController,
+  userBlogControlller,
 } = require("../controllers/blogController");
 
 //router object
